@@ -1,0 +1,220 @@
+  17:16:45.407  SCRIPT STARTED  -  Client - LocalScript:10
+  17:16:45.407  Rig type: R15  -  Client - LocalScript:13
+  17:16:45.407  Loading R15 module  -  Client - LocalScript:17
+  17:16:45.414  Module loaded:  ▶ {...}  -  Client - LocalScript:24
+  17:16:45.453  Joints collected:  -  Client - LocalScript:34
+  17:16:45.453    Joint for: LeftLowerArm -> LeftElbow  -  Client - LocalScript:36
+  17:16:45.453    Joint for: RightUpperArm -> RightShoulder  -  Client - LocalScript:36
+  17:16:45.454    Joint for: Head -> Neck  -  Client - LocalScript:36
+  17:16:45.454    Joint for: LeftFoot -> LeftAnkle  -  Client - LocalScript:36
+  17:16:45.454    Joint for: RightHand -> RightWrist  -  Client - LocalScript:36
+  17:16:45.454    Joint for: UpperTorso -> Waist  -  Client - LocalScript:36
+  17:16:45.454    Joint for: LeftUpperLeg -> LeftHip  -  Client - LocalScript:36
+  17:16:45.454    Joint for: LeftUpperArm -> LeftShoulder  -  Client - LocalScript:36
+  17:16:45.455    Joint for: RightLowerArm -> RightElbow  -  Client - LocalScript:36
+  17:16:45.455    Joint for: LeftHand -> LeftWrist  -  Client - LocalScript:36
+  17:16:45.455    Joint for: LowerTorso -> Root  -  Client - LocalScript:36
+  17:16:45.455    Joint for: RightUpperLeg -> RightHip  -  Client - LocalScript:36
+  17:16:45.455    Joint for: RightLowerLeg -> RightKnee  -  Client - LocalScript:36
+  17:16:45.455    Joint for: RightFoot -> RightAnkle  -  Client - LocalScript:36
+  17:16:45.456    Joint for: LeftLowerLeg -> LeftKnee  -  Client - LocalScript:36
+  17:16:45.456  playAnimation called  -  Client - LocalScript:71
+  17:16:45.457  Keyframes found:  ▶ {...}  -  Client - LocalScript:78
+  17:16:45.498    Found keyframe time: 0.3  -  Client - LocalScript:82
+  17:16:45.498    Found keyframe time: 0.13  -  Client - LocalScript:82
+  17:16:45.498    Found keyframe time: 0.37  -  Client - LocalScript:82
+  17:16:45.498    Found keyframe time: 0.17  -  Client - LocalScript:82
+  17:16:45.499    Found keyframe time: 0.4  -  Client - LocalScript:82
+  17:16:45.499    Found keyframe time: 0.47  -  Client - LocalScript:82
+  17:16:45.499    Found keyframe time: 0.27  -  Client - LocalScript:82
+  17:16:45.499    Found keyframe time: 0.1  -  Client - LocalScript:82
+  17:16:45.500    Found keyframe time: 0.57  -  Client - LocalScript:82
+  17:16:45.500    Found keyframe time: 0.43  -  Client - LocalScript:82
+  17:16:45.500    Found keyframe time: 0.07  -  Client - LocalScript:82
+  17:16:45.500    Found keyframe time: 0.53  -  Client - LocalScript:82
+  17:16:45.503    Found keyframe time: 0.03  -  Client - LocalScript:82
+  17:16:45.503    Found keyframe time: 0.2  -  Client - LocalScript:82
+  17:16:45.503    Found keyframe time: 0.23  -  Client - LocalScript:82
+  17:16:45.503    Found keyframe time: 0.33  -  Client - LocalScript:82
+  17:16:45.504    Found keyframe time: 0.5  -  Client - LocalScript:82
+  17:16:45.504    Found keyframe time: 0  -  Client - LocalScript:82
+  17:16:45.504  Playing keyframe: 0  -  Client - LocalScript:92
+  17:16:45.505    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.505  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.505    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.505  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.505      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.506      Weight 0  -  Client - LocalScript:65
+  17:16:45.506      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.506      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.510      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.510  Playing keyframe: 0.03  -  Client - LocalScript:92
+  17:16:45.510    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.510  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.510    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.510  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.511      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.511      Weight 0  -  Client - LocalScript:65
+  17:16:45.511      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.511      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.514      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.514  Playing keyframe: 0.07  -  Client - LocalScript:92
+  17:16:45.514    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.514  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.514    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.514  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.514      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.514      Weight 0  -  Client - LocalScript:65
+  17:16:45.515      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.515      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.519      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.520  Playing keyframe: 0.1  -  Client - LocalScript:92
+  17:16:45.520    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.520  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.520    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.520  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.520      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.520      Weight 0  -  Client - LocalScript:65
+  17:16:45.520      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.520      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.524      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.524  Playing keyframe: 0.13  -  Client - LocalScript:92
+  17:16:45.524    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.524  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.524    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.524  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.524      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.524      Weight 0  -  Client - LocalScript:65
+  17:16:45.525      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.525      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.528      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.528  Playing keyframe: 0.17  -  Client - LocalScript:92
+  17:16:45.528    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.528  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.528    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.528  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.528      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.528      Weight 0  -  Client - LocalScript:65
+  17:16:45.528      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.529      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.532      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.532  Playing keyframe: 0.2  -  Client - LocalScript:92
+  17:16:45.533    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.533  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.534    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.537  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.537      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.537      Weight 0  -  Client - LocalScript:65
+  17:16:45.537      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.538      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.541      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.542  Playing keyframe: 0.23  -  Client - LocalScript:92
+  17:16:45.542    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.543  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.543    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.543  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.543      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.544      Weight 0  -  Client - LocalScript:65
+  17:16:45.544      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.544      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.548      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.548  Playing keyframe: 0.27  -  Client - LocalScript:92
+  17:16:45.548    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.549  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.549    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.549  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.549      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.549      Weight 0  -  Client - LocalScript:65
+  17:16:45.549      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.549      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.554      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.555  Playing keyframe: 0.3  -  Client - LocalScript:92
+  17:16:45.555    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.555  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.555    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.555  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.555      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.556      Weight 0  -  Client - LocalScript:65
+  17:16:45.556      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.556      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.561      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.561  Playing keyframe: 0.33  -  Client - LocalScript:92
+  17:16:45.561    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.561  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.561    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.561  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.561      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.561      Weight 0  -  Client - LocalScript:65
+  17:16:45.562      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.562      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.566      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.566  Playing keyframe: 0.37  -  Client - LocalScript:92
+  17:16:45.566    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.566  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.567    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.567  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.567      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.567      Weight 0  -  Client - LocalScript:65
+  17:16:45.567      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.567      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.571      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.571  Playing keyframe: 0.4  -  Client - LocalScript:92
+  17:16:45.571    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.571  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.571    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.572  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.572      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.572      Weight 0  -  Client - LocalScript:65
+  17:16:45.572      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.572      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.576      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.576  Playing keyframe: 0.43  -  Client - LocalScript:92
+  17:16:45.576    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.577  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.577    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.577  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.577      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.577      Weight 0  -  Client - LocalScript:65
+  17:16:45.577      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.577      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.581      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.581  Playing keyframe: 0.47  -  Client - LocalScript:92
+  17:16:45.581    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.581  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.581    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.581  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.581      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.581      Weight 0  -  Client - LocalScript:65
+  17:16:45.581      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.582      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.586      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.586  Playing keyframe: 0.5  -  Client - LocalScript:92
+  17:16:45.586    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.586  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.586    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.586  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.587      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.587      Weight 0  -  Client - LocalScript:65
+  17:16:45.587      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.587      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.590      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.591  Playing keyframe: 0.53  -  Client - LocalScript:92
+  17:16:45.591    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.591  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.591    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.591  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.591      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.591      Weight 0  -  Client - LocalScript:65
+  17:16:45.591      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.591      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.596      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
+  17:16:45.596  Playing keyframe: 0.57  -  Client - LocalScript:92
+  17:16:45.596    Pose for: HumanoidRootPart  -  Client - LocalScript:95
+  17:16:45.596  TweenPose called for: LowerTorso  -  Client - LocalScript:49
+  17:16:45.596    Joint found: Root CFrame: 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:62
+  17:16:45.596  Keys inside pose for LowerTorso  -  Client - LocalScript:63
+  17:16:45.597      EasingStyle Enum.EasingStyle.Linear  -  Client - LocalScript:65
+  17:16:45.597      Weight 0  -  Client - LocalScript:65
+  17:16:45.597      CFrame 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1  -  Client - LocalScript:65
+  17:16:45.597      SubPoses  ▶ {...}  -  Client - LocalScript:65
+  17:16:45.601      EasingDirection Enum.EasingDirection.In  -  Client - LocalScript:65
