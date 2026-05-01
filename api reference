@@ -1,0 +1,2540 @@
+() =>void
+**********
+aimAssist.
+disableTargetLock
+()
+aimAssist.
+enableTargetLock
+()
+aimAssist.
+getBowAssistEntityId
+() →
+int
+aimAssist.
+hasBowAssistTarget
+() →
+boolean
+aimAssist.
+isBowAssistEnabled
+() →
+boolean
+aimAssist.
+isTargetLockEnabled
+() →
+boolean
+aimAssist.
+toggleBowAssist
+()
+antiHunger.
+disable
+()
+antiHunger.
+enable
+()
+antiHunger.
+isEnabled
+() →
+boolean
+antiHunger.
+setEnabled
+(
+boolean
+value)
+antiHunger.
+toggle
+()
+areaMine.
+disable
+()
+areaMine.
+enable
+()
+areaMine.
+isEnabled
+() →
+boolean
+areaMine.
+setEnabled
+(
+boolean
+value)
+areaMine.
+toggle
+()
+armorOverlay.
+disable
+()
+armorOverlay.
+enable
+()
+armorOverlay.
+isEnabled
+() →
+boolean
+armorOverlay.
+setEnabled
+(
+boolean
+value)
+armorOverlay.
+toggle
+()
+autoBucket.
+disable
+()
+autoBucket.
+enable
+()
+autoBucket.
+isEnabled
+() →
+boolean
+autoBucket.
+setEnabled
+(
+boolean
+value)
+autoBucket.
+toggle
+()
+autoCraft.
+disable
+()
+autoCraft.
+enable
+()
+autoCraft.
+isEnabled
+() →
+boolean
+autoCraft.
+setEnabled
+(
+boolean
+value)
+autoCraft.
+toggle
+()
+autoCriticals.
+disable
+()
+autoCriticals.
+enable
+()
+autoCriticals.
+isEnabled
+() →
+boolean
+autoCriticals.
+setEnabled
+(
+boolean
+value)
+autoCriticals.
+toggle
+()
+autoDrop.
+dropItems
+()
+autoEat.
+disable
+()
+autoEat.
+enable
+()
+autoEat.
+isEnabled
+() →
+boolean
+autoEat.
+setEnabled
+(
+boolean
+value)
+autoEat.
+toggle
+()
+autoHotbar.
+disable
+()
+autoHotbar.
+enable
+()
+autoHotbar.
+isEnabled
+() →
+boolean
+autoHotbar.
+setEnabled
+(
+boolean
+value)
+autoHotbar.
+toggle
+()
+autoTool.
+disable
+()
+autoTool.
+enable
+()
+autoTool.
+isEnabled
+() →
+boolean
+autoTool.
+setEnabled
+(
+boolean
+value)
+autoTool.
+toggle
+()
+bedrockBreaker.
+getStatus
+() →
+string
+bedrockBreaker.
+process
+()
+bedrockBreaker.
+processNearby
+()
+blink.
+apply
+()
+blink.
+disable
+()
+blink.
+enable
+()
+blink.
+getDistance
+() →
+float
+blink.
+getPackets
+() →
+int
+blink.
+isEnabled
+() →
+boolean
+blockAutomation.
+disable
+()
+blockAutomation.
+enable
+()
+blockAutomation.
+isEnabled
+() →
+boolean
+blockAutomation.
+setEnabled
+(
+boolean
+value)
+blockAutomation.
+toggle
+()
+blockAutomation.
+useOne
+()
+blocks.
+addBlackList
+(
+int
+x,
+int
+y,
+int
+z)
+blocks.
+addBlackList
+(
+BlockPos
+pos)
+blocks.
+addCustom
+(
+BlockPos
+pos,
+string
+color)
+blocks.
+addCustom
+(
+int
+x,
+int
+y,
+int
+z,
+string
+color)
+blocks.
+clearBlackList
+()
+blocks.
+clearCustom
+()
+blocks.
+getCount
+(
+string
+blockId) →
+int
+blocks.
+isEnabled
+() →
+boolean
+blocks.
+isEnabled
+(
+string
+blockId) →
+boolean
+blocks.
+removeCustom
+(
+int
+x,
+int
+y,
+int
+z)
+blocks.
+removeCustom
+(
+BlockPos
+pos)
+blocks.
+rescan
+()
+blocks.
+setBoundingBoxColor
+(
+string
+blockId,
+string
+color)
+blocks.
+setOverlayColor
+(
+string
+blockId,
+string
+color)
+blocks.
+setTracerColor
+(
+string
+blockId,
+string
+color)
+blocks.
+toggle
+(
+string
+blockId)
+blocks.
+toggle
+()
+boatHack.
+isFlyEnabled
+() →
+boolean
+boatHack.
+toggleFly
+()
+camera.
+getX
+() →
+float
+camera.
+getXRot
+() →
+float
+camera.
+getY
+() →
+float
+camera.
+getYRot
+() →
+float
+camera.
+getZ
+() →
+float
+clipboard.
+get
+() →
+string
+clipboard.
+set
+(
+string
+value)
+color.
+gradient
+(
+string
+color1,
+string
+color2,
+float
+value) →
+string
+color.
+toHex
+(
+int
+red,
+int
+green,
+int
+blue,
+int
+alpha) →
+string
+color.
+toHex
+(
+int
+red,
+int
+green,
+int
+blue) →
+string
+containerButtons.
+dropAll
+(
+boolean
+autoClose)
+containerButtons.
+isAutoCloseEnabled
+() →
+boolean
+containerButtons.
+isAutoDropAllEnabled
+() →
+boolean
+containerButtons.
+isAutoTakeAllEnabled
+() →
+boolean
+containerButtons.
+smartPut
+()
+containerButtons.
+takeAll
+(
+boolean
+autoClose)
+containerButtons.
+toggleAutoClose
+()
+containerButtons.
+toggleAutoDropAll
+()
+containerButtons.
+toggleAutoTakeAll
+()
+containers.
+click
+(
+int
+slot,
+int
+button,
+string
+clickType) →
+boolean
+containers.
+close
+()
+containers.
+getItemAtSlot
+(
+int
+index) →
+ItemStack
+containers.
+getMenuClass
+() →
+string
+containers.
+getMenuId
+() →
+int
+containers.
+getScreenTitle
+() →
+string
+containers.
+getSlotsSize
+() →
+int
+containers.
+hasItemAtSlot
+(
+int
+index) →
+boolean
+containers.
+isValidSlotIndex
+(
+int
+index) →
+boolean
+containers.
+waitForNewId
+() →
+Future
+containers.
+waitForOpen
+() →
+Future
+debug.
+write
+(
+string
+message)
+delay.
+ticks
+(
+int
+ticks) →
+Future
+delayed.
+run
+(
+int
+ticks, Lambda<() =>
+void
+> action)
+elytraFly.
+disable
+()
+elytraFly.
+enable
+()
+elytraFly.
+getHorizontalAcceleration
+() →
+float
+elytraFly.
+getMaxSpeed
+() →
+float
+elytraFly.
+getVerticalAcceleration
+() →
+float
+elytraFly.
+isEnabled
+() →
+boolean
+elytraFly.
+setEnabled
+(
+boolean
+value)
+elytraFly.
+setHorizontalAcceleration
+(
+float
+acceleration)
+elytraFly.
+setMaxSpeed
+(
+float
+speed)
+elytraFly.
+setVerticalAcceleration
+(
+float
+acceleration)
+elytraFly.
+toggle
+()
+entities.
+isEnabled
+(
+string
+className) →
+boolean
+entities.
+isEnabled
+() →
+boolean
+entities.
+setCollisionBoxColor
+(
+string
+className,
+string
+color)
+entities.
+setOutlineColor
+(
+string
+className,
+string
+color)
+entities.
+setOverlayColor
+(
+string
+className,
+string
+color)
+entities.
+setTracerColor
+(
+string
+className,
+string
+color)
+entities.
+toggle
+(
+string
+className)
+entities.
+toggle
+()
+esp.
+isEnabled
+() →
+boolean
+esp.
+toggle
+()
+events.
+onChatMessage
+(Lambda<(
+string
+text) =>
+void
+> consumer)
+events.
+onChatMessageRaw
+(Lambda<(
+FormattedText
+text) =>
+void
+> consumer)
+events.
+onContainerMenuSlotClick
+(Lambda<(
+int
+slot,
+int
+button,
+string
+type) =>
+void
+> consumer)
+events.
+onHandleKeys
+(Lambda<() =>
+void
+> action)
+events.
+onJoinServer
+(Lambda<(
+ServerInformation
+info) =>
+void
+> consumer)
+events.
+onPlayerAdded
+(Lambda<(
+int
+id) =>
+void
+> consumer)
+events.
+onPlayerInfoUpdate
+(Lambda<(
+PlayerInfo
+info,
+string
+type) =>
+void
+> consumer)
+events.
+onPlayerMessageSending
+(Lambda<(
+PlayerMessageSendingEvent
+event) =>
+void
+> consumer)
+events.
+onPlayerRemoved
+(Lambda<(
+int
+id) =>
+void
+> consumer)
+events.
+onTickEnd
+(Lambda<() =>
+void
+> action)
+explorationMiniMap.
+addMarker
+()
+fakeLag.
+disable
+()
+fakeLag.
+enable
+()
+fakeLag.
+isEnabled
+() →
+boolean
+fakeLag.
+setEnabled
+(
+boolean
+value)
+fakeLag.
+toggle
+()
+fastBreak.
+disable
+()
+fastBreak.
+enable
+()
+fastBreak.
+isEnabled
+() →
+boolean
+fastBreak.
+setEnabled
+(
+boolean
+value)
+fastBreak.
+toggle
+()
+flyHack.
+disable
+()
+flyHack.
+enable
+()
+flyHack.
+getFlySpeed
+() →
+float
+flyHack.
+isEnabled
+() →
+boolean
+flyHack.
+setEnabled
+(
+boolean
+value)
+flyHack.
+setFlySpeed
+(
+float
+speed)
+flyHack.
+toggle
+()
+font.
+getLineHeight
+() →
+int
+font.
+getStringWidth
+(
+string
+value) →
+int
+freeCam.
+getCoordinates
+() →
+string
+freeCam.
+getPosition
+() →
+Position3d
+freeCam.
+getTargetBlockCoordinates
+() →
+string
+freeCam.
+getTargetBlockName
+() →
+string
+freeCam.
+isEnabled
+() →
+boolean
+freeCam.
+startPath
+()
+freeCam.
+toggle
+()
+freeCam.
+toggleCameraLock
+()
+freeCam.
+toggleEyeLock
+()
+freeCam.
+toggleFollowCam
+()
+fullBright.
+disable
+()
+fullBright.
+enable
+()
+fullBright.
+isEnabled
+() →
+boolean
+fullBright.
+setEnabled
+(
+boolean
+value)
+fullBright.
+toggle
+()
+game.
+getDayTime
+() →
+int
+game.
+getOnlinePlayers
+() →
+PlayerInfo
+[]
+game.
+getTick
+() →
+int
+game.
+getUserName
+() →
+string
+game.
+getVersion
+() →
+string
+game.
+isRaining
+() →
+boolean
+game.
+isSinglePlayer
+() →
+boolean
+game.
+isThundering
+() →
+boolean
+game.
+rayCast
+(
+int
+entityId,
+float
+maxRange) →
+HitResult
+game.
+rayCastClosestEntity
+(
+Position3d
+origin,
+Position3d
+dir,
+float
+range) →
+RayCastEntityResult
+game.dimension.
+get
+() →
+string
+game.dimension.
+isEnd
+() →
+boolean
+game.dimension.
+isNether
+() →
+boolean
+game.dimension.
+isOverworld
+() →
+boolean
+game.blocks.
+canBeReplaced
+(
+BlockPos
+pos) →
+boolean
+game.blocks.
+canBeReplaced
+(
+int
+x,
+int
+y,
+int
+z) →
+boolean
+game.blocks.
+get
+(
+int
+x,
+int
+y,
+int
+z) →
+BlockState
+game.blocks.
+get
+(
+BlockPos
+pos) →
+BlockState
+game.blocks.
+getBlockLightLevel
+(
+int
+x,
+int
+y,
+int
+z) →
+int
+game.blocks.
+getBooleanTag
+(
+BlockPos
+pos,
+string
+tag) →
+boolean
+game.blocks.
+getBooleanTag
+(
+int
+x,
+int
+y,
+int
+z,
+string
+tag) →
+boolean
+game.blocks.
+getEnumTag
+(
+int
+x,
+int
+y,
+int
+z,
+string
+tag) →
+string
+game.blocks.
+getEnumTag
+(
+BlockPos
+pos,
+string
+tag) →
+string
+game.blocks.
+getId
+(
+BlockPos
+pos) →
+string
+game.blocks.
+getId
+(
+int
+x,
+int
+y,
+int
+z) →
+string
+game.blocks.
+getIntegerTag
+(
+BlockPos
+pos,
+string
+tag) →
+int
+game.blocks.
+getIntegerTag
+(
+int
+x,
+int
+y,
+int
+z,
+string
+tag) →
+int
+game.blocks.
+getSkyLightLevel
+(
+int
+x,
+int
+y,
+int
+z) →
+int
+game.blocks.
+hasTag
+(
+BlockPos
+pos,
+string
+tag) →
+boolean
+game.blocks.
+hasTag
+(
+int
+x,
+int
+y,
+int
+z,
+string
+tag) →
+boolean
+game.blocks.
+isFluidSource
+(
+int
+x,
+int
+y,
+int
+z) →
+boolean
+game.entities.
+canSpawnAt
+(
+string
+id,
+int
+x,
+int
+y,
+int
+z) →
+boolean
+game.entities.
+enumerateByClass
+(
+string
+className) →
+int
+[]
+game.entities.
+enumerateById
+(
+string
+id) →
+int
+[]
+game.entities.
+findClosestEntityByClass
+(
+string
+className) →
+int
+game.entities.
+findClosestEntityById
+(
+string
+id) →
+int
+game.entities.
+getBoundingBox
+(
+int
+entityId) →
+BoundingBox
+game.entities.
+getCount
+(
+string
+className) →
+int
+game.entities.
+getCountById
+(
+string
+id) →
+int
+game.entities.
+getDisplayName
+(
+int
+entityId) →
+string
+game.entities.
+getEquippedChestItem
+(
+int
+entityId) →
+ItemStack
+game.entities.
+getEquippedFeetItem
+(
+int
+entityId) →
+ItemStack
+game.entities.
+getEquippedHeadItem
+(
+int
+entityId) →
+ItemStack
+game.entities.
+getEquippedLegsItem
+(
+int
+entityId) →
+ItemStack
+game.entities.
+getEquippedMainHandItem
+(
+int
+entityId) →
+ItemStack
+game.entities.
+getEquippedOffHandItem
+(
+int
+entityId) →
+ItemStack
+game.entities.
+getHealth
+(
+int
+entityId) →
+int
+game.entities.
+getHorseJumpHeight
+(
+int
+entityId) →
+float
+game.entities.
+getHorseMovementSpeed
+(
+int
+entityId) →
+float
+game.entities.
+getIntTag
+(
+int
+entityId,
+string
+tag) →
+int
+game.entities.
+getItemStack
+(
+int
+entityId) →
+ItemStack
+game.entities.
+getName
+(
+int
+entityId) →
+string
+game.entities.
+getNbt
+(
+int
+entityId) →
+CompoundTag
+game.entities.
+getPassengers
+(
+int
+entityId) →
+int
+[]
+game.entities.
+getPosition
+(
+int
+entityId) →
+Position3d
+game.entities.
+getType
+(
+int
+entityId) →
+string
+game.entities.
+getVehicle
+(
+int
+entityId) →
+int
+game.entities.
+getX
+(
+int
+entityId) →
+float
+game.entities.
+getXRot
+(
+int
+entityId) →
+float
+game.entities.
+getY
+(
+int
+entityId) →
+float
+game.entities.
+getYRot
+(
+int
+entityId) →
+float
+game.entities.
+getZ
+(
+int
+entityId) →
+float
+game.entities.
+hasCustomName
+(
+int
+entityId) →
+boolean
+game.entities.
+hasEffectByColor
+(
+int
+entityId,
+string
+color) →
+boolean
+game.entities.
+hasEffectById
+(
+int
+entityId,
+string
+effectId) →
+boolean
+game.entities.
+isAlive
+(
+int
+entityId) →
+boolean
+game.entities.
+isBaby
+(
+int
+entityId) →
+boolean
+game.entities.
+isInstanceOf
+(
+int
+entityId,
+string
+className) →
+boolean
+game.entities.
+isPassenger
+(
+int
+entityId) →
+boolean
+game.entities.
+isUsingItemWithMainHand
+(
+int
+entityId) →
+boolean
+game.entities.
+isUsingItemWithOffHand
+(
+int
+entityId) →
+boolean
+hitboxSize.
+disable
+()
+hitboxSize.
+enable
+()
+hitboxSize.
+isEnabled
+() →
+boolean
+hitboxSize.
+setEnabled
+(
+boolean
+value)
+hitboxSize.
+toggle
+()
+input.
+isAltDown
+() →
+boolean
+input.
+isControlDown
+() →
+boolean
+input.
+isKeyDown
+(
+string
+key) →
+boolean
+input.
+isShiftDown
+() →
+boolean
+inventory.
+equip
+(
+string
+itemId) →
+boolean
+inventory.
+equipMainHand
+(
+string
+itemId) →
+boolean
+inventory.
+equipOffHand
+(
+string
+itemId) →
+boolean
+inventory.
+findAndMoveToHotbar
+(
+int
+slot, Lambda<(
+ItemStack
+itemStack) =>
+boolean
+> predicate) →
+boolean
+inventory.
+getChest
+() →
+ItemStack
+inventory.
+getCount
+(
+string
+itemId) →
+int
+inventory.
+getFeet
+() →
+ItemStack
+inventory.
+getHead
+() →
+ItemStack
+inventory.
+getHotbarItem
+(
+int
+slot) →
+ItemStack
+inventory.
+getLegs
+() →
+ItemStack
+inventory.
+getMainHand
+() →
+ItemStack
+inventory.
+getOffHand
+() →
+ItemStack
+inventory.
+setSelectedHotbarSlot
+(
+int
+slot)
+inventory.
+swapEquipChest
+(
+string
+itemId) →
+boolean
+inventory.
+swapEquipFeet
+(
+string
+itemId) →
+boolean
+inventory.
+swapEquipHead
+(
+string
+itemId) →
+boolean
+inventory.
+swapEquipLegs
+(
+string
+itemId) →
+boolean
+jsonConvert.
+deserialize
+(
+string
+json,
+Type
+type) →
+java.lang.Object
+jsonConvert.
+serialize
+(
+java.lang.Object
+object) →
+string
+keys.up.
+click
+()
+keys.up.
+isDown
+() →
+boolean
+keys.up.
+setDown
+(
+boolean
+state)
+keys.down.
+click
+()
+keys.down.
+isDown
+() →
+boolean
+keys.down.
+setDown
+(
+boolean
+state)
+keys.left.
+click
+()
+keys.left.
+isDown
+() →
+boolean
+keys.left.
+setDown
+(
+boolean
+state)
+keys.right.
+click
+()
+keys.right.
+isDown
+() →
+boolean
+keys.right.
+setDown
+(
+boolean
+state)
+keys.jump.
+click
+()
+keys.jump.
+isDown
+() →
+boolean
+keys.jump.
+setDown
+(
+boolean
+state)
+keys.sneak.
+click
+()
+keys.sneak.
+isDown
+() →
+boolean
+keys.sneak.
+setDown
+(
+boolean
+state)
+keys.sprint.
+click
+()
+keys.sprint.
+isDown
+() →
+boolean
+keys.sprint.
+setDown
+(
+boolean
+state)
+keys.drop.
+click
+()
+keys.drop.
+isDown
+() →
+boolean
+keys.drop.
+setDown
+(
+boolean
+state)
+keys.attack.
+click
+()
+keys.attack.
+isDown
+() →
+boolean
+keys.attack.
+setDown
+(
+boolean
+state)
+keys.use.
+click
+()
+keys.use.
+isDown
+() →
+boolean
+keys.use.
+setDown
+(
+boolean
+state)
+killAura.
+disable
+()
+killAura.
+enable
+()
+killAura.
+isEnabled
+() →
+boolean
+killAura.
+setEnabled
+(
+boolean
+value)
+killAura.
+toggle
+()
+lightLevel.
+disable
+()
+lightLevel.
+enable
+()
+lightLevel.
+isEnabled
+() →
+boolean
+lightLevel.
+setEnabled
+(
+boolean
+value)
+lightLevel.
+toggle
+()
+lockInputs.
+isHoldAttackEnabled
+() →
+boolean
+lockInputs.
+isHoldForwardEnabled
+() →
+boolean
+lockInputs.
+isHoldUseEnabled
+() →
+boolean
+lockInputs.
+isMouseInputDisabled
+() →
+boolean
+lockInputs.
+toggleHoldAttack
+()
+lockInputs.
+toggleHoldForward
+()
+lockInputs.
+toggleHoldUse
+()
+lockInputs.
+toggleMouseInputDisabled
+()
+markers.
+add
+(
+string
+name,
+float
+x,
+float
+y,
+float
+z,
+float
+minDistance,
+string
+color)
+markers.
+isEnabled
+(
+string
+name) →
+boolean
+markers.
+removeByName
+(
+string
+name)
+markers.
+toggle
+(
+string
+name)
+math.
+abs
+(
+int
+value) →
+int
+math.
+abs
+(
+float
+value) →
+float
+math.
+ceil
+(
+float
+value) →
+int
+math.
+floor
+(
+float
+value) →
+int
+math.
+floorDiv
+(
+int
+x,
+int
+y) →
+int
+math.
+floorMod
+(
+int
+x,
+int
+y) →
+int
+math.
+max
+(
+int
+v1,
+int
+v2) →
+int
+math.
+max
+(
+float
+v1,
+float
+v2) →
+float
+math.
+min
+(
+int
+v1,
+int
+v2) →
+int
+math.
+min
+(
+float
+v1,
+float
+v2) →
+float
+math.
+random
+() →
+float
+math.
+randomInt
+(
+int
+max) →
+int
+math.
+randomInt
+(
+int
+min,
+int
+max) →
+int
+math.
+round
+(
+float
+value) →
+int
+math.
+sqrt
+(
+float
+value) →
+float
+math.radians.
+acos
+(
+float
+value) →
+float
+math.radians.
+asin
+(
+float
+value) →
+float
+math.radians.
+atan
+(
+float
+value) →
+float
+math.radians.
+atan2
+(
+float
+y,
+float
+x) →
+float
+math.radians.
+cos
+(
+float
+value) →
+float
+math.radians.
+sin
+(
+float
+value) →
+float
+math.radians.
+tan
+(
+float
+value) →
+float
+math.radians.
+toDegrees
+(
+float
+value) →
+float
+math.degrees.
+acos
+(
+float
+value) →
+float
+math.degrees.
+asin
+(
+float
+value) →
+float
+math.degrees.
+atan
+(
+float
+value) →
+float
+math.degrees.
+atan2
+(
+float
+y,
+float
+x) →
+float
+math.degrees.
+cos
+(
+float
+value) →
+float
+math.degrees.
+sin
+(
+float
+value) →
+float
+math.degrees.
+tan
+(
+float
+value) →
+float
+math.degrees.
+toRadians
+(
+float
+value) →
+float
+movement.
+getJumpFactor
+() →
+float
+movement.
+getSpeedMultiplierFactor
+() →
+float
+movement.
+isOverrideJumpHeightEnabled
+() →
+boolean
+movement.
+isSpeedMultiplierEnabled
+() →
+boolean
+movement.
+setJumpFactor
+(
+float
+value)
+movement.
+setSpeedMultiplierFactor
+(
+float
+value)
+movement.
+toggleOverrideJumpHeight
+()
+movement.
+toggleSpeedMultiplier
+()
+noFall.
+disable
+()
+noFall.
+enable
+()
+noFall.
+isEnabled
+() →
+boolean
+noFall.
+setEnabled
+(
+boolean
+value)
+noFall.
+toggle
+()
+os.files.
+readAllLines
+(
+string
+path) →
+string
+[]
+os.files.
+readAllText
+(
+string
+path) →
+string
+os.files.
+writeAllLines
+(
+string
+path,
+string
+[] lines) →
+boolean
+os.files.
+writeAllText
+(
+string
+path,
+string
+text) →
+boolean
+player.
+attack
+(
+int
+entityId) →
+boolean
+player.
+chat
+(
+string
+text)
+player.
+command
+(
+string
+text)
+player.
+disconnect
+(
+string
+type)
+player.
+disconnect
+(
+string
+type,
+string
+message)
+player.
+enumerateNearbyBlocks
+(
+float
+range) →
+BlockPos
+[]
+player.
+getAttackCooldown
+() →
+float
+player.
+getBiome
+() →
+string
+player.
+getBlockCoordinatesFormatted
+() →
+string
+player.
+getCalculatedNetherCoordinates
+() →
+string
+player.
+getCalculatedOverworldCoordinates
+() →
+string
+player.
+getChunkCoordinatesFormatted
+() →
+string
+player.
+getCoordinatesFormatted
+() →
+string
+player.
+getDestroyingBlockProgress
+() →
+float
+player.
+getDestroyingBlockX
+() →
+int
+player.
+getDestroyingBlockY
+() →
+int
+player.
+getDestroyingBlockZ
+() →
+int
+player.
+getDirection
+() →
+string
+player.
+getEyePosition
+() →
+Position3d
+player.
+getFood
+() →
+int
+player.
+getHealth
+() →
+int
+player.
+getHorizontalSpeed
+() →
+string
+player.
+getId
+() →
+int
+player.
+getInteractionDistanceTo
+(
+int
+entityId) →
+float
+player.
+getLookDirection
+() →
+Position3d
+player.
+getPosition
+() →
+Position3d
+player.
+getSpeed
+() →
+string
+player.
+getX
+() →
+float
+player.
+getXRot
+() →
+float
+player.
+getY
+() →
+float
+player.
+getYRot
+() →
+float
+player.
+getZ
+() →
+float
+player.
+isDestroyingBlock
+() →
+boolean
+player.
+isElytraFlying
+() →
+boolean
+player.
+isOnGround
+() →
+boolean
+player.
+isPassenger
+() →
+boolean
+player.
+isUnderwater
+() →
+boolean
+player.
+lookAt
+(
+float
+x,
+float
+y,
+float
+z)
+player.
+setXRot
+(
+float
+value)
+player.
+setYRot
+(
+float
+value)
+player.target.
+getBlockCoordinatesFormatted
+() →
+string
+player.target.
+getBlockName
+() →
+string
+player.target.
+getBlockPos
+() →
+BlockPos
+player.target.
+getBlockPosInRange
+(
+float
+maxRange,
+boolean
+captureFluids) →
+BlockPos
+player.target.
+getBlockX
+() →
+int
+player.target.
+getBlockY
+() →
+int
+player.target.
+getBlockZ
+() →
+int
+player.target.
+getEntityId
+() →
+int
+player.target.
+hasBlock
+() →
+boolean
+player.target.
+hasEntity
+() →
+boolean
+player.target.
+rayCast
+(
+float
+maxRange) →
+HitResult
+player.effects.
+getDuration
+(
+string
+id) →
+float
+player.effects.
+getLevel
+(
+string
+id) →
+int
+player.interactions.
+interactWithEntity
+(
+int
+entityId,
+boolean
+offHand)
+player.interactions.
+interactWithEntity
+(
+int
+entityId)
+player.interactions.
+openClosestChestBoat
+()
+player.interactions.
+openTradingWithClosestVillager
+()
+profiles.
+change
+(
+string
+name) →
+boolean
+profiles.
+getCurrent
+() →
+string
+render.
+getFps
+() →
+int
+render.
+getFrameTime
+() →
+float
+scaffold.
+disable
+()
+scaffold.
+enable
+()
+scaffold.
+isEnabled
+() →
+boolean
+scaffold.
+setEnabled
+(
+boolean
+value)
+scaffold.
+toggle
+()
+serverPlugins.
+get
+() →
+string
+[]
+serverPlugins.
+getBukkit
+() →
+string
+[]
+serverPlugins.
+reset
+()
+shulkerTooltip.
+disable
+()
+shulkerTooltip.
+enable
+()
+shulkerTooltip.
+isEnabled
+() →
+boolean
+shulkerTooltip.
+setEnabled
+(
+boolean
+value)
+shulkerTooltip.
+toggle
+()
+sound.
+getLastError
+() →
+string
+sound.
+play
+(
+string
+filename,
+float
+volume) →
+boolean
+sound.
+play
+(
+string
+filename) →
+boolean
+stepUp.
+disable
+()
+stepUp.
+enable
+()
+stepUp.
+isEnabled
+() →
+boolean
+stepUp.
+setEnabled
+(
+boolean
+value)
+stepUp.
+toggle
+()
+teleport.
+toCrosshair
+(
+float
+distance,
+int
+repeats) →
+boolean
+teleport.
+vertical
+(
+float
+fromDistance,
+float
+toDistance,
+boolean
+findSurface,
+int
+repeats) →
+boolean
+teleport.
+vertical
+(
+float
+distance,
+int
+repeats) →
+boolean
+time.
+getSeconds
+() →
+float
+time.
+getSystemTimeFormatted
+(
+string
+format) →
+string
+tps.
+get
+() →
+float
+ui.
+isDebugScreenEnabled
+() →
+boolean
+ui.
+overlayMessage
+(
+string
+color1,
+string
+text1,
+string
+color2,
+string
+text2)
+ui.
+overlayMessage
+(
+string
+text)
+ui.
+overlayMessage
+(
+string
+color,
+string
+text)
+ui.
+overlayMessage
+(
+string
+[] parameters)
+ui.
+screenshot
+()
+ui.
+systemMessage
+(
+string
+color1,
+string
+text1,
+string
+color2,
+string
+text2)
+ui.
+systemMessage
+(
+string
+[] parameters)
+ui.
+systemMessage
+(
+string
+text)
+ui.
+systemMessage
+(
+string
+color,
+string
+text)
+variables.
+getBoolean
+(
+string
+name) →
+boolean
+variables.
+getFloat
+(
+string
+name) →
+float
+variables.
+getInteger
+(
+string
+name) →
+int
+variables.
+getObject
+(
+string
+name) →
+java.lang.Object
+variables.
+getString
+(
+string
+name) →
+string
+variables.
+setBoolean
+(
+string
+name,
+boolean
+value)
+variables.
+setFloat
+(
+string
+name,
+float
+value)
+variables.
+setInteger
+(
+string
+name,
+int
+value)
+variables.
+setObject
+(
+string
+name,
+java.lang.Object
+value)
+variables.
+setString
+(
+string
+name,
+string
+value)
+villagerRoller.
+getState
+() →
+string
+villagerRoller.
+getStopReason
+() →
+string
+villagerRoller.
+isActive
+() →
+boolean
+villagerRoller.
+resetStopReason
+()
+villagerRoller.
+start
+()
+villagerRoller.
+stop
+()
+villagerRoller.
+toggle
+()
+window.
+emulateMouseButtonEvent
+(
+int
+button,
+boolean
+pressed)
+window.
+emulateMouseMove
+(
+int
+x,
+int
+y)
+window.
+getGuiHeight
+() →
+int
+window.
+getGuiScale
+() →
+int
+window.
+getGuiWidth
+() →
+int
+window.
+getHeight
+() →
+int
+window.
+getWidth
+() →
+int
+zoom.
+start
+(
+float
+fov,
+float
+seconds)
+zoom.
+stop
+()
